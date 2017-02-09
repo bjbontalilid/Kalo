@@ -51,9 +51,10 @@ body{
 	font-family: "Open Sans", Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	letter-spacing: 0px;
-	color: #747474;
+	color: #151515;
 	-webkit-text-size-adjust: 100%;
-	font: 13px/20px;
+	font-size: 14px;
+	line-height: 1.5em;
 }
 #wrapper{
 	width: 100%;
@@ -117,6 +118,27 @@ nav.sticky{
 }
 #page-content{
 	width: 100%;
+	float: left;
+	background-image: url(images/body-bg.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+	background-color: #fff;
+    clear: both;
+	margin-bottom: 90px;
+}
+#content{
+	padding-top: 40px;
+	text-align: left;
+	width: 100%;
+	float: left;
 }
 #slider{
 	width: 100%;
@@ -124,6 +146,72 @@ nav.sticky{
 	float: left;
 	background: url(images/slider_1.jpeg) no-repeat center center / cover;
 	height: 600px;
+}
+.footer-parallax{
+    z-index: -99;
+    position: fixed;
+    bottom: -18px;
+    left: 0;
+    right: 0;
+}
+footer{
+	background-color: #000000;
+    border-color: #4b4c4d;
+    border-top-width: 1px;
+    padding-bottom: 16px;
+	text-align: center;
+}
+.copyright{
+	color: #ffffff;
+    font-size: 12px;
+	display: block;
+    width: 100%;
+    text-align: center;
+	float: left;
+	clear: both;
+	padding-top: 18px;
+}
+.copyright a{
+	color: #FFF;
+	text-decoration: none;
+}
+.footer-social{
+	font-size: 16px;
+	padding: 15px 0;
+	color: #FFF;
+	clear: both;
+    float: left;
+    width: 100%;
+}
+.footer-social a{
+	padding: 0 10px;
+	color: #FFF;
+}
+
+/* Elements */
+a{
+	color: #4188ba;
+}
+h2{
+	font-family: Lora, Georgia, serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+h2{
+	margin-top: 0.67em;
+    margin-bottom: 0.67em;
+	margin-bottom: 20px;
+	font-size: 28px;
+	line-height: 40px;
+}
+p{
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 20px;
+}
+img{
+	max-width: 100%;
 }
 
 @media screen and (max-width: 768px){
