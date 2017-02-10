@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:300,400,600,700,800');
 
 /* Reset CSS */
 
@@ -192,11 +192,13 @@ footer{
 a{
 	color: #4188ba;
 }
-h2{
+h1, h2, h3{
 	font-family: Lora, Georgia, serif;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 2px;
+    color: #4188ba;
+    text-align: left;
 }
 h2{
 	margin-top: 0.67em;
@@ -212,6 +214,87 @@ p{
 }
 img{
 	max-width: 100%;
+}
+strong{
+	font-weight: 700 !important;
+}
+.fusion-title {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-align-items: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 0 31px;
+}
+.fusion-title .title-sep-container {
+    position: relative;
+    height: 6px;
+    -ms-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.fusion-title .title-sep.sep-single {
+    border-bottom-width: 1px;
+}
+.fusion-title .title-sep, .fusion-title.sep-underline, .product .product-border {
+    border-color: #3e3e3e;
+}
+
+.fusion-title .title-sep {
+    position: relative;
+    width: 100%;
+    border: 0 solid #000;
+    box-sizing: content-box;
+}
+.fusion-border-below-title, .fusion-title .title-sep, .fusion-title.fusion-sep-none {
+    display: block;
+}
+.table-1 table, .table-1 th, tr td, .table-1 tr td{
+	border-color: #3e3e3e;
+	border: 1px solid;
+}
+.table-1 table th, .tkt-slctr-tbl-wrap-dv table th {
+    background: #f6f6f6;
+    padding: 20px;
+    text-align: left;
+}
+table th{
+	font-family: Lora, Georgia, serif;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+.table-1 tr td {
+    padding: 10px 20px;
+}
+.table-1 tr:nth-child(2n), .tkt-slctr-tbl-wrap-dv tr:nth-child(2n) {
+    background: #f6f6f6;
+}
+.fusion-desktop-button {
+    display: block;
+}
+.reading-box{
+	padding: 28px 28px 27px 31px;
+}
+.button-default{
+	background: #565656;
+	color: #ffffff;
+}
+.continue-right {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.button-large, .button.large, .fusion-body .fusion-button-large {
+    padding: 13px 29px;
+    line-height: 17px;
+    font-size: 14px;
 }
 @media screen and (max-width: 768px){
 	.navbar-nav > li{
