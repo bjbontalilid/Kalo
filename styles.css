@@ -67,6 +67,7 @@ body{
 #page-header img{
 	max-width: 100%;
 	padding: 12px 0;
+	border: none;
 }
 #menu-container{
 	background-color: #e5e5e5;
@@ -217,6 +218,7 @@ p{
 }
 img{
 	max-width: 100%;
+	border: 1px solid rgb(187, 189, 192);
 }
 strong{
 	font-weight: 700 !important;
@@ -311,6 +313,37 @@ table th{
     padding: 13px 29px;
     line-height: 17px;
     font-size: 14px;
+}
+.fusion-checklist .fusion-li-icon {
+    display: inline;
+	vertical-align: middle;
+	text-align: center;
+	color: #386aa0;
+	font-size: 26px;
+	margin-right: 10px;
+}
+.fusion-checklist-1 li{
+	margin-bottom: 10px;
+}
+.fusion-button.button-1 {
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    background: #4188ba;
+    border-radius: 2px;
+    font-family: "PT Sans";
+	font-weight: 400;
+	letter-spacing: 0px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.button-xlarge{
+	padding: 17px 40px;
+	line-height: 21px;
+	font-size: 18px;
+}
+.fusion-button.button-1 .fusion-button-text, .fusion-button.button-1 i {
+    color: #ffffff;
 }
 @media screen and (max-width: 768px){
 	.navbar-nav > li{
